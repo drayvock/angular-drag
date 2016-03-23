@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css" type="text/css" />
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="../ui-drag.js"></script>
+	</head>
+	<body>
+		<div ng-app="app" ng-controller="mainCtrl" class="app">
+		  <div class="drop-zone">
+		    <div class="drag-hook" draggable drag-vertical="false">Blue</div>
+		    <div class="drag-hook" draggable drag-restrict="greenRestrict">Green</div>
+		  </div>
+		  <div class="drag-hook" draggable drag-restrict="windowRestrict">Anywhere</div> 
+		</div> 
+	</body>
+</html>

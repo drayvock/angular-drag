@@ -1,0 +1,41 @@
+
+html {
+  background-color: #1D1F20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  height: 75px;
+}
+
+.app {
+  height: 75px;
+  width: 350px;
+  background-color: #559783;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drop-zone {
+  height: 50px;
+  width: 200px;
+  background-color: #517FB3;
+  border: 1px solid #1D1F20;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drag-hook {
+  height: 50px;
+  width: 75px;
+  background-color: #9A7E84;
+  border-left: 1px solid #1D1F20;
+  border-right: 1px solid #1D1F20;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
