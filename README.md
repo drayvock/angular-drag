@@ -1,7 +1,7 @@
 # angular-drag
 A simple directive for dragging elements within a given container, relying only on angular's provided jqlite.
 
-[Demo](http://codepen.io/jhowell/pen/eZWGvO)
+[Demo](http://drayvock.github.io/angular-drag/demo/)
 
 # License
 The MIT License (MIT)
